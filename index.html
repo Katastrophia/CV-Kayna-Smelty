@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" type='text/css' href="css/styles.css">
-    <script src='js/index.js'></script>
+    <script src='js/script.js'></script>
 
   </head>
   <body data-spy='scroll' data-target='.navbar' data-offset='60'>
@@ -32,7 +32,7 @@
             <li> <a href="#education">Education</a> </li>
             <li> <a href="#portfolio">Portfolio</a> </li>
             <li> <a href="#recommandations">Recommandations</a> </li>
-
+            <li> <a href="#contact">Contact</a> </li>
           </ul>
 
         </div>
@@ -55,25 +55,25 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="progress">
-              <div class="progress-bar" role='progressbar' aria-valuenow='85' aria-valuemin='0' aria-valuemax='100' style='width:85%'>
-                  <h5>HTML 85%</h5>
+              <div class="progress-bar" role='progressbar' aria-valuenow='100' aria-valuemin='0' aria-valuemax='100' style='width:85%'>
+                  <h5>HTML5 100%</h5>
               </div>
             </div>
             <div class="progress">
-              <div class="progress-bar" role='progressbar' aria-valuenow='85' aria-valuemin='0' aria-valuemax='100' style='width:85%'>
-                <h5>CSS 85%</h5>
+              <div class="progress-bar" role='progressbar' aria-valuenow='100' aria-valuemin='0' aria-valuemax='100' style='width:85%'>
+                <h5>CSS 100%</h5>
               </div>
             </div>
             <div class="progress">
-              <div class="progress-bar" role='progressbar' aria-valuenow='85' aria-valuemin='0' aria-valuemax='100' style='width:85%'>
-                <h5>JAVASCRIPT 85%</h5>
+              <div class="progress-bar" role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width:85%'>
+                <h5>SASS 95%</h5>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="progress">
               <div class="progress-bar" role='progressbar' aria-valuenow='95' aria-valuemin='0' aria-valuemax='100' style='width:95%'>
                 <h5>JQUERY 95%</h5>
@@ -86,9 +86,26 @@
             </div>
             <div class="progress">
               <div class="progress-bar" role='progressbar' aria-valuenow='75' aria-valuemin='0' aria-valuemax='100' style='width:75%'>
-                <h5>ANGULAR 75%</h5>
+                <h5>JAVASCRIPT 75%</h5>
               </div>
             </div>
+
+            <div class="col-md-3">
+              <div class="progress">
+                <div class="progress-bar" role='progressbar' aria-valuenow='90' aria-valuemin='0' aria-valuemax='100' style='width:95%'>
+                  <h5>WORDPRESS 90%</h5>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role='progressbar' aria-valuenow='90' aria-valuemin='0' aria-valuemax='100' style='width:100%'>
+                  <h5>POWERSHELL 90%</h5>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role='progressbar' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100' style='width:75%'>
+                  <h5>C 25%</h5>
+                </div>
+              </div>
 
           </div>
         </div>
@@ -98,7 +115,7 @@
         <div class='container'>
           <div class="white-divider"></div>
           <div class="heading">
-            <h2>Expérience Professionnelle</h2>
+            <h2>Expérience</h2>
           </div>
                 <ul class='timeline'>
                   <li>
@@ -108,7 +125,7 @@
                       <div class="timeline-panel-container"><!--classe ajoutée pour le @media : left-panel-->
                         <div class="timeline-panel">
                           <div class="timeline-heading">
-                            <h3>GOOGLE</h3>
+                            <h3>UDEMY</h3>
                             <h4>Développeur Web Sénior</h4>
                             <p class='text-muted'><small class='glyphicon glyphicon-time' aria-hidden="true"></small>2013-2015</p>
                           </div>
@@ -199,19 +216,24 @@
             <h2>Portfolio</h2>
           </div>
           <div class="row">
-            <div class="col-sm-4">
-              <a class='thumbnail' href="https://actrices.kayna-smelty.com/" target='_blank'>
+            <div class="col-sm-6">
+              <a class='thumbnail' href="https://actrices.kayna-smelty.com/actrices" target='_blank'>
                 <img src='images\top5.png' alt='actrices'>
               </a>
             </div>
-            <div class="col-sm-4">
-              <a class='thumbnail' href="https://serpent.kayna-smelty.com/" target='_blank'>
-                <img src='docs\Snake.gif' alt='snake'>
+            <div class="col-sm-6">
+              <a class='thumbnail' href="https://kayna-smelty.com/serpent" target='_blank'>
+                <img src='images\snake.gif' alt='snake'>
               </a>
             </div>
-            <div class="col-sm-4">
-              <a class='thumbnail' href="https://voyage.kayna-smelty.com/" target='_blank'>
+            <div class="col-sm-6">
+              <a class='thumbnail' href="https://voyage.kayna-smelty.com/voyage" target='_blank'>
                 <img src='images\voyage.png' alt='voyage'>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a class='thumbnail' href="https://kayna-smelty.com/burgercode" target='_blank'>
+                <img src='images\Burger Code.png' alt='burger code'>
               </a>
             </div>
           </div>
@@ -250,6 +272,54 @@
             <a class='right carousel-control' href="#myCarousel" data-slide='next'>
               <span class='glyphicon glyphicon-chevron-right'></span>
             </a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class='container'>
+          <div class="white-divider"></div>
+          <div class="heading">
+            <h2>Contact</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <form id="contact-form" action="" method="post" role="form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="firstname">Prénom *</span></label>
+                    <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom" >
+                    <p class="comments"> </p>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="name">Nom *</span></label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" >
+                    <p class="comments"></p>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email">Email *</span></label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Votre email" >
+                    <p class="comments"></p>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone">Téléphone </label>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Votre téléphone">
+                    <p class="comments"></p>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="message">Message *</span></label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Votre message" row="4"></textarea>
+                    <p class="comments"></p>
+                  </div>
+                  <div class="col-md-12">
+                    <p class="blue">* Ces informations sont requises</p>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="submit" class="button1" value="Envoyer">
+                  </div>
+                </div>
+
+              </form>
+            </div>
           </div>
         </div>
       </section>
