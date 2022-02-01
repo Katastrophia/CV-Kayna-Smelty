@@ -85,12 +85,13 @@ ul, ol{
   padding-top: 10px;
 }
 #about .heading h3{
-  color: #000;
+  color: #8d94ba;
 }
 .button1{
   font-weight: bold;
   text-transform: uppercase;
   color: white;
+  background-color: #1b263b;
   border: 1px solid white;
   display: inline-block;
   margin-top: 20px;
@@ -124,7 +125,9 @@ text-decoration: none;
 #skills .progress-bar{
   text-shadow: 1px 1px 1px #000;
 }
-
+#skills .container .row div > div:last-child{
+  margin-bottom : 0px;
+}
 
 
 /*EXPERIENCE*/
@@ -144,7 +147,7 @@ text-decoration: none;
   position: absolute;
   content: "";
   width: 5px;
-  background: #333;
+  background: #8d94ba;
   left: 50%;
   margin-left: -2.5px;
 }
@@ -219,6 +222,19 @@ text-decoration: none;
 .timeline-heading h4{
   color: #1B263B;
 }
+.carousel {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.carousel-inner {
+    position: relative;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+}
+
 
 /*@media (max-width:768px){
   .left-panel{
@@ -345,8 +361,9 @@ footer h5{
 
 /* MEDIA */
 @media (max-width:768px){
+
   .timeline:before{
-  left: 30px;
+   left: 30px;
   }
   .timeline li .timeline-badge{
     left: 20px;
