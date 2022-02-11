@@ -98,13 +98,20 @@ ul, ol{
   padding: 18px 50px;
   border-radius: 3px;
   transition: all 0.3s ease-in 0s;
+  margin-left: 20px;
 }
 .button1:hover{
-background: white;
-color: #1B263B;
+background: white !important;
+color: #1B263B !important;
 text-decoration: none;
 }
-
+.button1:focus, .button1:visited{
+color: white;
+text-decoration: none !important;
+}
+.button2{
+padding: 18px 35px;
+}
 
 
 /*SKILLS*/
